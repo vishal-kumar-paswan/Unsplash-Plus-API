@@ -61,6 +61,7 @@ exports.fetchImages = async (req, res) => {
                     id: data.id,
                     description: data.description,
                     thumb: data.urls.thumb,
+                    regular: data.urls.regular,
                     raw: data.urls.raw,
                 }
                 return tempImageObject;
